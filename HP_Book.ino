@@ -34,11 +34,10 @@ void loop() {
     if ((currentTime - lastTime_sendBook) > duration_sendBook) {      // Check to see if enough time has passed to trigger book event
       sendBook();                                                     // Run Book Event Function
       lastTime_sendBook = currentTime;                                // Reset Timer for book event as it has just been completed
-    }  
-  }
-  if (digitalRead(eventButton) == LOW) {                              // Check to see if Event button Pressed
+    } else if (digitalRead(eventButton) == LOW) {                     // Check to see if Event button Pressed
     Serial.println("Button Pressed");                                 // Send Debug text to serial monitor
     sendBook();                                                       // Run book event
+    }  
   }
 }
 
