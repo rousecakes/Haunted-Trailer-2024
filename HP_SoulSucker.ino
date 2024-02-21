@@ -2,7 +2,7 @@
 /* Define Pins */
 const int cycleSwitch = A0;                 // Switch for Cycle animation Flag
 const int eventButton = A1;                 // Button to Initiate book event
-const int animationTrigger = 7;             // Trigger (Relay 2) - for starting book animations
+const int animationTrigger = 7;             // Trigger (Relay 1) - for starting Soul Sucking animations
 
 
 
