@@ -12,7 +12,7 @@ unsigned long currentTime = millis();                   // Set current time
 unsigned long lastTime_suckSoul;                        // Place to store Time on the Book Event
 unsigned long duration_suckSoul = 90000;                // Interval Trigger for the Book Event (1.5 Mins)
 unsigned long duration_animationTriggerDelay = 500;     // Amount of time to trigger the animation - Keep Trigger Relay On (Half a Second)
-unsigned long duration_animationComplete = 10000;       // Remainder of the animation cycle (10 Seconds)
+unsigned long duration_animationComplete = 31000;       // Remainder of the animation cycle (31 Seconds)
 
 /* Function ProtoTypes */
 void suckSoul();
