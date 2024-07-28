@@ -10,7 +10,7 @@ const int eventButton = A3;                 // Button to Initiate book event
 unsigned long currentTime = millis();                                                                         // Set current time
 
 unsigned long lastTime_sendBook;                                                                              // Place to store Time on the Book Event
-unsigned long duration_sendBook = 90000;                                                                      // Interval Trigger for the Book Event - 1.5 Mins
+unsigned long duration_sendBook = 45000;                                                                      // Interval Trigger for the Book Event - 45 Seconds
 unsigned long duration_animationStartDelay = 0;                                                               // Amount of seconds to delay the start of animation (0 Seconds - Start Immediatly) - Animation itself is 9-10 Seconds in total
 unsigned long duration_animationTriggerDelay = 500;                                                           // Amount of time to trigger the animation - Keep Trigger Relay On (Half a Second)
 unsigned long duration_pistonDelay = (7500UL-duration_animationStartDelay-duration_animationTriggerDelay);    // Amount of time to leave piston on (7.5 Seconds)

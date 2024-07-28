@@ -9,9 +9,9 @@ AccelStepper stepperS(1, 12, 13);     // 1 = Driver Interface DM542T - Set steps
 const int pot = A0;                   // Pin A0 Connected to center pin [2] on Potentiometer (Pot Pin 1 connected to +5V, Pot Pin 3 connected to Gnd)
 
 /* Stepper Travel Variables and Initializers */
-const int maxMotorSpeed = 2000;       // Keep between 50-3000, Lower equal slower
+const int maxMotorSpeed = 1000;       // Keep between 50-3000, Lower equal slower
 const int startMotorSpeed = 0;        // Lower equal slower
-const int acceleration = 400;         // Acceleration Keep between 50-maxMotorSpeed
+const int acceleration = 300;         // Acceleration Keep between 50-maxMotorSpeed
  
 int previousRead = 0;                                // Set Variable for previous reading
 

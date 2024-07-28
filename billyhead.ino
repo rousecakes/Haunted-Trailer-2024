@@ -14,7 +14,7 @@ const float STEPS_PER_REV = 800;                               // 1.8  degree st
 
 uint8_t randomNumber_position;                                 // Variable for random position
 uint8_t randomNumber_delay;                                    // Variable for random delay
-uint16_t buffer_position[5] = { 285, 345, 390, 525, 605 };     // Positions to go to
+uint16_t buffer_position[5] = { 420, 390, 330, 275, 240 };     // Positions to go to
 uint16_t buffer_delay[3] = { 1000, 2500, 4000 };               // Delays to stay at position
 
 unsigned long currentTime = millis();                          // Time for re-homing
